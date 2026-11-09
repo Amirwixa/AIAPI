@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure gradlew shell script always maintains Unix LF line endings
+gradlew text eol=lf
+
+# Windows batch script requires CRLF
+*.bat text eol=crlf
+
+# Binaries
+*.jar binary
