@@ -14,3 +14,9 @@
 .cxx
 local.properties
 /app/build
+__pycache__/
+*.py[cod]
+*$py.class
+windows/build/
+windows/dist/
+*.spec
